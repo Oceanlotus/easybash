@@ -1,0 +1,2 @@
+# easybash
+Make life easy!

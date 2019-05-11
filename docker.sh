@@ -1,4 +1,4 @@
-#一键docker部署！
+﻿#一键docker部署！
  yum remove docker \
                   docker-client \
                   docker-client-latest \
@@ -12,5 +12,5 @@
   lvm2
  yum-config-manager \
     --add-repo \
-    https://download.docker.com/linux/centos/docker-ce.repo
+  https://download.docker.com/linux/centos/docker-ce.repo
  yum install docker-ce docker-ce-cli containerd.io	
